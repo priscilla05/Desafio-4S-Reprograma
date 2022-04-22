@@ -2,12 +2,14 @@
  o fatorial dele. por exemplo: 3! = 3 * 2 * 1 // 6*/
 
  
-/* const fatorial = [5, 4, 3, 2, 1]
+/*Usando reduce
+ const fatorial = [5, 4, 3, 2, 1]
  const result = fatorial.reduce ((valorAtual, valorAnterior) =>{
      return valorAnterior * valorAtual
  })
  console.log(result)// resulta em 120 */
 
+ // usando função
  function factorial(num) {
     let resultado = num
 
@@ -16,4 +18,4 @@
     }
     return resultado
 }
-console.log(factorial(7))
+console.log(factorial(7)) // resulta em 5040
